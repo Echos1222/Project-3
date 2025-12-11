@@ -20,13 +20,21 @@ NodeSerializer.java converts objects to 512-byte blocks for disk storage
 BTree.java - implements the B-tree and associated algorithms
 
 To run the program make sure all files are in the same directory and use javac *.java 
+
 The usage pattern will be java project 3 <command> <arguments> 
+
 Examples: 
+
 java project3 create test.idx
+
 java project3 insert test.idx 15 100
+
 java project3 search test.idx 15
+
 java project3 load test.idx input.csv
+
 java project3 print test.idx
+
 java project3 extract test.idx output.csv
 
 Make sure to create the file before inserting 
