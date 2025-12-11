@@ -4,12 +4,19 @@ This program implements a disk-based B-tree index with a command-line interface.
 
 Files present:
 project3.java Driver File
+
 IndexFile.java Manages operations on a B-tree
+
 Header.java stores file metadata in block 0
+
 BTreeNode.java represents the B-tree node in memory
+
 NodeIO.java interface for reading/writing/allocating nodes
+
 DiskNodeIO.java implements NodeIO with disk access using RandomAccessFile
+
 NodeSerializer.java converts objects to 512-byte blocks for disk storage
+
 BTree.java - implements the B-tree and associated algorithms
 
 To run the program make sure all files are in the same directory and use javac *.java 
