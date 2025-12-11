@@ -5,3 +5,5 @@
 12/10/25 6:31 - Created my BTree node class with all the specifications of block size 512 , max keys of 19 and 20 since minimal degree is 10. Had some issues with the disk node class where in memory I was incrementing correctly but I was not writing it back to disk which was causing blocks to be overwritten after a restart. Created a NODEIO class that allows for the B-tree to be stored in disk and defines how the B-tree accesses nodes. Created A DiskNodeIO class that implements the functions with the specifications that were defined in node io so reading writing and allocating.
 
 12/10/25 7:19 - Finished the encoding decoding of nodes which I called NodeSerializer to enforce that nodes must be stored in 512 bytes. Next I will work on actually implementing the B-tree algorithm and testing out the entire program to make sure it works
+
+12/10/25 8:11 implemented my B tree and tested all primary commands and resolved issues with I/O and writing to disk. Will do some quick edits to files to clean up the code and create the readme and submit.
